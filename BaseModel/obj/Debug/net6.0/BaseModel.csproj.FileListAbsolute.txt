@@ -1,0 +1,14 @@
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\bin\Debug\net6.0\BaseModel.deps.json
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\bin\Debug\net6.0\BaseModel.runtimeconfig.json
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\bin\Debug\net6.0\BaseModel.dll
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\bin\Debug\net6.0\BaseModel.pdb
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\obj\Debug\net6.0\BaseModel.csproj.AssemblyReference.cache
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\obj\Debug\net6.0\BaseModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\obj\Debug\net6.0\BaseModel.AssemblyInfoInputs.cache
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\obj\Debug\net6.0\BaseModel.AssemblyInfo.cs
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\obj\Debug\net6.0\BaseModel.csproj.CoreCompileInputs.cache
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\obj\Debug\net6.0\BaseModel.dll
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\obj\Debug\net6.0\refint\BaseModel.dll
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\obj\Debug\net6.0\BaseModel.pdb
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\obj\Debug\net6.0\BaseModel.genruntimeconfig.cache
+C:\Users\LongPhamPC\source\repos\Blogs\BaseModel\obj\Debug\net6.0\ref\BaseModel.dll
