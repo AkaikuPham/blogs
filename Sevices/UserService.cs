@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
 using BaseModel;
 using Repositories;
+using Sevices.ViewModels;
 using Sevices.ViewModels.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -30,6 +32,21 @@ namespace Sevices
             var result = _mapper.Map<UserViewModel>(user);
 
             return result;
+        }
+
+        public ResponseResult<CreateUserViewModel> Create(UserViewModel userVM)
+        {
+            try
+            {
+                var user = _mapper.Map<User>(userVM);
+                _unitOfWork.UserRepository.create(user);
+                _unitOfWork.SaveChange();
+                return new ResponseResult<CreateUserViewModel>();
+            }
+            catch (Exception ex)
+            {
+                return new ResponseResult<CreateUserViewModel>(ex.Message);
+            }
         }
     }
 }

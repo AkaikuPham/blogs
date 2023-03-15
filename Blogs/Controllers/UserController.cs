@@ -28,5 +28,17 @@ namespace Blogs.Controllers
 
             return Ok(user);
         }
+
+        [HttpPost]
+        public IActionResult Create(CreateUserViewModel user)
+        {
+            if (user != null)
+            {
+                String message = "User không tồn tại";
+                return BadRequest(message);
+            }
+
+            return Ok(user);
+        }
     }
 }

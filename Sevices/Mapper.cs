@@ -14,6 +14,7 @@ namespace Sevices
         public Mapper()
         {
             CreateMap<UserViewModel, User>().ReverseMap();
+            CreateMap<CreateUserViewModel, User>().ReverseMap();
         }
     }
 }

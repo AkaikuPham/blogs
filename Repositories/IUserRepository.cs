@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Repositories
 {
-    public interface IUserRepository
+    public interface IUserRepository : IGenericRepository<User>
     {
         public List<User> getAll();
 
